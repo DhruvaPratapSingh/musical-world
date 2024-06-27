@@ -9,7 +9,7 @@ import Link from "next/link";
     const [active, setActive] = useState<string | null>(null);
     return (
       <div
-        className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
+        className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 bg-black rounded-full shadow-2xl text-xl", className)}
       >
         <Menu setActive={setActive}>
             <HoveredLink href="/">
