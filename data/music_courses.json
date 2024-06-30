@@ -8,7 +8,7 @@
         "price": 99.99,
         "instructor": "John Doe",
         "isFeatured": true,
-        "image": "/pexels-thepaintedsquare-1010519.jpg" 
+        "image": "https://th.bing.com/th/id/OIP.cFgU2K3iUO9OD4-nyqtAEQHaJK?w=156&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7" 
       },
       {
         "id": 2,
@@ -17,8 +17,8 @@
         "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
         "price": 109.99,
         "instructor": "Jane Smith",
-        "isFeatured": false,
-        "image": "/R.jpeg" 
+        "isFeatured": true,
+        "image": "https://th.bing.com/th/id/OIP.Cy7-Xf2U_h5Eqrdodq-3iAHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" 
       },
       {
         "id": 3,
@@ -28,7 +28,7 @@
         "price": 119.99,
         "instructor": "Emily Johnson",
         "isFeatured": true,
-        "image": "/R.jpeg"  
+        "image": "https://th.bing.com/th/id/OIP.6F0RhxlRk0nNwTFqAx2G0AHaHa?w=111&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"  
       },
       {
         "id": 4,
@@ -37,8 +37,8 @@
         "description": "Master the drums with our comprehensive course covering all skill levels.",
         "price": 129.99,
         "instructor": "Mike Brown",
-        "isFeatured": false,
-        "image": "/R.jpeg" 
+        "isFeatured": true,
+        "image": "https://th.bing.com/th/id/OIP.FVEU-ZALxFdCtzK_t1scYwHaEK?w=329&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7" 
       },
       {
         "id": 5,
@@ -48,7 +48,7 @@
         "price": 139.99,
         "instructor": "Chris Davis",
         "isFeatured": false,
-        "image": "/R.jpeg" 
+        "image": "https://th.bing.com/th/id/OIP.K0wJ2QyePB8Ie5_VQlwL2wHaFl?w=208&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" 
       },
       {
         "id": 6,
@@ -58,7 +58,7 @@
         "price": 149.99,
         "instructor": "Alex Wilson",
         "isFeatured": true,
-        "image": "/R.jpeg" 
+        "image": "https://th.bing.com/th/id/OIP.cq3ZFhxvstlYDOd45OTKvQHaHa?w=164&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7g" 
       },
       {
         "id": 7,
@@ -68,7 +68,7 @@
         "price": 159.99,
         "instructor": "Samantha Miller",
         "isFeatured": false,
-        "image": "/R.jpeg" 
+        "image": "https://th.bing.com/th/id/OIP.7tJ37ZttKZII4CRyxsEI1wHaE7?w=276&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7" 
       },
       {
         "id": 8,
@@ -78,7 +78,7 @@
         "price": 169.99,
         "instructor": "Luke Harris",
         "isFeatured": true,
-        "image": "/R.jpeg" 
+        "image": "https://th.bing.com/th/id/OIP.FnOOse8B3x2ZKeEsAtZuuwHaE7?w=253&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" 
       },
       {
         "id": 9,
@@ -88,7 +88,7 @@
         "price": 179.99,
         "instructor": "Grace Lee",
         "isFeatured": false,
-        "image": "/R.jpeg" 
+        "image": "https://th.bing.com/th/id/OIP.FnOOse8B3x2ZKeEsAtZuuwHaE7?w=253&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" 
       },
       {
         "id": 10,
@@ -98,7 +98,7 @@
         "price": 189.99,
         "instructor": "Ethan Moore",
         "isFeatured": true,
-        "image": "/assets/R.jpeg"
+        "image": "https://th.bing.com/th/id/OIP._UqpMIRffympR8Yh0-OIhQHaJ3?w=123&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
       }
     ]
   }

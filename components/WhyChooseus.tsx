@@ -9,7 +9,7 @@ const content = [
        'Embark on a musical journey that’s uniquely yours. Our personalized instruction adapts to your individual needs, setting the stage for unparalleled growth and creativity. At our music school, your aspirations meet our dedicated support, creating a harmonious path to mastery.',
       content: (
         <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-          CDiscover Your Sound with Us: A Personal Journey in Music Mastery
+          Discover Your Sound with Us: A Personal Journey in Music Mastery
         </div>
       ),
     },
@@ -19,13 +19,13 @@ const content = [
        'Embark on a musical journey that’s uniquely yours. Our personalized instruction adapts to your individual needs, setting the stage for unparalleled growth and creativity. At our music school, your aspirations meet our dedicated support, creating a harmonious path to mastery.',
       content: (
         <div className="h-full w-full  flex items-center justify-center text-white">
-          {/* <Image
-            src="/linear.webp"
+          <Image
+            src="https://th.bing.com/th/id/OIP.Z_PIeIRDajXPmZHROt-T_QHaEK?w=291&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
             width={300}
             height={300}
             className="h-full w-full object-cover"
             alt="linear board demo"
-          /> */}
+          />
         </div>
       ),
     },

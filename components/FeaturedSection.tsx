@@ -19,11 +19,11 @@ const FeaturedSection = () => {
     
     
   return (
-    <div className='p-12 bg-gray-900'>
+    <div className='p-12 bg-zinc-900'>
       <div className=''>
         <div className='text-center'>
       <h2 className='font-semibold uppercase bg-clip-text text-transparent bg-gradient-to-b from-blue-600 to-green-800'>Featured courses</h2>
-      <p className='font-extrabold tracking-tight mt-3 text-3xl sm:text-4xl'>Learn with the best </p>
+      <p className='font-extrabold tracking-tight mt-3 text-3xl sm:text-4xl bg-clip-text text-transparent bg-gradient-to-br from-red-600 to-orange-200'>Learn with the best </p>
         </div>
       </div>
       <div className="mt-10 mx-8">
@@ -32,9 +32,13 @@ const FeaturedSection = () => {
                     <div key={course.id} className="flex justify-center">
                         <BackgroundGradient
                         className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
-                            {/* <Image src={course.image}  height="400"
+                           {/* <Image
+          src={course.image}
+          alt="jordans"
+          height="400"
           width="400"
-        alt="loading.." /> */}
+          className="object-cover max-h-44"
+        /> */}
                             <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
                                 <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">{course.title}</p>
                                 <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">{course.description}</p>
