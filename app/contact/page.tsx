@@ -10,6 +10,7 @@ import {
   IconBrandOnlyfans,
 } from "@tabler/icons-react";
 import { Spotlight } from "@/components/ui/Spotlight";
+import { Meteors } from "@/components/ui/meteors";
  
 const BottomGradient = () => {
     return (
@@ -39,11 +40,8 @@ const page = () => {
         console.log("Form submitted");
       };
       return (
-        <div className="min-h-screen  py-12 pt-36 bg-zinc-900/[0.96] antialiased dark:bg-grid-white/[0.1] bg-grid-black/[0.1] relative flex items-center justify-center">
-             <Spotlight
-        className="-top-40 right-0 md:right-60 md:-top-20"
-        fill="green"
-      />
+        <div className="min-h-screen  py-12 pt-36 dark:bg-gray-900 relative flex items-center justify-center">
+             <Meteors number={500} />
         <div className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-12 md:p-8 shadow-input bg-white dark:bg-black">
           <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
             Welcome to Music World

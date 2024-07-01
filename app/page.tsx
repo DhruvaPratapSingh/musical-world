@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import Instructor from "@/components/Instructor";
 import UpcomingWebinar from "@/components/UpcomingWebinar";
 import WhyChooseus from "@/components/WhyChooseus";
+import { Meteors } from "@/components/ui/meteors";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
     <>
    <main className="min-h-screen bg-zinc-900/[0.96] antialiased dark:bg-dot-white/[0.2] bg-dot-black/[0.2]
    ">
+     <Meteors number={200} />
     <Herosection/>
     <FeaturedSection/>
     <WhyChooseus/>

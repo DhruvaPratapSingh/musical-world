@@ -21,7 +21,7 @@ import Link from "next/link";
             <HoveredLink href="/courses">
             All Services
             </HoveredLink>
-            <HoveredLink href="#">
+            <HoveredLink href="/basic">
             Basic
             </HoveredLink>
             <HoveredLink href="#">
