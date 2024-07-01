@@ -15,10 +15,10 @@ import Link from "next/link";
             <HoveredLink href="/">
             <MenuItem setActive={setActive} active={active} item="Home"></MenuItem>
             </HoveredLink>
-            <HoveredLink href="/service">
+            <HoveredLink href="/courses">
             <MenuItem setActive={setActive} active={active} item="Service">
             <div className="flex flex-col text-sm space-y-4">
-            <HoveredLink href="#">
+            <HoveredLink href="/courses">
             All Services
             </HoveredLink>
             <HoveredLink href="#">
