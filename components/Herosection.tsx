@@ -14,7 +14,7 @@ const Herosection = () => {
         <h1 className='text-4xl font-extrabold mt-20 md:mt-0 md:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-blue-400 to-red-600'>Master the art of music</h1>
         <p className='mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto '>Deep Dive in our comprehensive music course and transform your musical journey today. whether you are a beginner or looking to refine your skills, join our community to boost your potential and musical power.</p>
         <div className='mt-4'>
-            <Link href={"/explore"}>
+            <Link href={"/courses"}>
             <Button
         borderRadius="1.95rem"
         className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800 p-2 md:w-40 "
