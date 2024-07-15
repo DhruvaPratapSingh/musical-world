@@ -41,7 +41,7 @@ const page = () => {
       };
       return (
         <div className="min-h-screen  py-12 pt-36 dark:bg-gray-900 relative flex items-center justify-center">
-             <Meteors number={500} />
+             {/* <Meteors number={500} /> */}
         <div className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-12 md:p-8 shadow-input bg-white dark:bg-black">
           <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
             Welcome to Music World
@@ -51,7 +51,7 @@ const page = () => {
             yet
           </p>
      
-          <form className="my-8" onSubmit={handleSubmit}>
+          <form className="my-8 mx-auto" onSubmit={handleSubmit}>
             <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
               <LabelInputContainer>
                 <Label htmlFor="firstname">First name</Label>

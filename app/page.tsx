@@ -14,7 +14,7 @@ export default function Home() {
     <>
    <main className="min-h-screen bg-zinc-900/[0.96] antialiased dark:bg-dot-white/[0.2] bg-dot-black/[0.2]
    ">
-     <Meteors number={200} />
+     {/* <Meteors number={200} /> */}
     <Herosection/>
     <FeaturedSection/>
     <WhyChooseus/>
